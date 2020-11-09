@@ -1,15 +1,21 @@
 ---
-# Add a comment to make this file sass-y.
-# Change this file for any custom CSS.
+# Only the main Sass file needs front matter (the dashes are enough)
 ---
 
-/* We need to add display:inline in order to align the '>>' of the 'read more' link */
-.post-excerpt p {
-	display:inline;
+// Default theme colors
+$theme-colors: (
+  coolblack: #090a0b,
+  spacegrey: #353535,
+  snowwhite: #ffffff,
+);
+
+$theme-name: "{{ site.theme_color }}";
+$theme-color: map-get($theme-colors, "snowwhite");
+
+@if map-has-key($theme-colors, $theme-name) {
+  $theme-color: map-get($theme-colors, $theme-name);
+} @else if str-index($theme-name, "#") == 1 {
+  $theme-color: {{ site.theme_color | default: '#ffffff' }};
 }
 
-// Import partials from `sass_dir` (defaults to `_sass`)
-@import
-	"syntax",
-    "starsnonscss"
-;
+@import "yat";
