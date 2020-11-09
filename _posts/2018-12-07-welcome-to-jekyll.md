@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Welcome to Jekyll!
-subheading: hello world!
-author: Jeffrey
-categories: jekyll
-banner: https://bit.ly/32PAjtM
+title: Welcome to My GitHub Page!
+subheading: Let me introduce my self 😗
+author: Aron Akhmad
+categories: About Me
+banner: https://images.unsplash.com/photo-1478293888741-aee4356f71c7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1101&q=80
 tags: jekyll theme yat
 ---
 
