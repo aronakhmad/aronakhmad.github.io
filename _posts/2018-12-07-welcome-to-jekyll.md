@@ -4,8 +4,7 @@ title: Welcome to My GitHub Page!
 subheading: Let me introduce my self 😗
 author: Aron Akhmad
 categories: About Me
-banner: https://images.unsplash.com/photo-1478293888741-aee4356f71c7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1101&q=80
-tags: jekyll theme yat
+banner: https://images.unsplash.com/photo-1497864149936-d3163f0c0f4b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80
 ---
 
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
