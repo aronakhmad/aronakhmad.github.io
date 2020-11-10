@@ -61,7 +61,7 @@
   }
 
   [type="checkbox"]:checked ~ label .light{
-    opacity: .5;
+    opacity: 1;
   }
 
   @include media-query(1024px) {
