@@ -5,9 +5,9 @@
   img: https://www.countryflags.io/us/flat/64.png
   text: English
 
-- lang: fr
-  img: https://www.countryflags.io/fr/flat/64.png
-  text: Franch
+- lang: id
+  img: https://www.countryflags.io/ID/shiny/64.png
+  text: Indonesian
 
 - lang: zh-CN
   img: https://www.countryflags.io/cn/flat/64.png
