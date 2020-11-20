@@ -4,7 +4,7 @@ title: Twitter Data Collection
 subheading: Twitter data is widely used for analysis, especially within NLP field. There are lots of insight we could get from it, but.... How could you actually collect all those Twitter data tho? Do you scrape through Twitter search feature and manually copypaste-ing all those tweets? Well, that sounds alot of work for me and we're absolutely not gonna go through that. In this post, we're going to learn how to do so in a much better and simpler way. Scroll down if you want to find out! 😉
 author: Aron Akhmad
 categories: Data Collection
-banner: https://cdn.cms-twdigitalassets.com/content/dam/help-twitter/logos/card_wide_blue.png
+banner: https://q3p9g6n2.rocketcdn.me/wp-content/ml-loads/2014/07/twitter-logo-small-fade-1920.png
 ---
 
 **Twitter** is a microblogging service or also called social media where you can tweet out your thoughts within 280 characters. It is used by 330 million people across the world and there are 500 million tweets sent per day. That means, there are a lot of data we could get too as a data geek, *teehee* 😁. Luckily, Twitter allows us to collect data from it for certain purposes. So, for us who want to do research and need Twitter data for it, we can actually ask Twitter for consent and ultimately get those data through Twitter API. But how could we literally do all that, tho?
