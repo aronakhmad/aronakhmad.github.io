@@ -25,36 +25,36 @@ title: About
   <h3>👨‍💻 Languages and Tools</h3>
   <div class="badges">
     <div class="badges_pic">
-      ![Python](https://img.shields.io/badge/-Python-black?style=flat&logo=python)
+      <img src="https://img.shields.io/badge/-Python-black?style=flat&logo=python">
     </div>
     <div class="badges_pic">
-      ![Java](https://img.shields.io/badge/Java-orange?style=flat&logo=java&logoColor=white)
+      <img src="https://img.shields.io/badge/Java-orange?style=flat&logo=java&logoColor=white">
     </div>
     <div class="badges_pic">
-      ![JavaScript](https://img.shields.io/badge/-JavaScript-black?style=flat&logo=javascript)
+      <img src="https://img.shields.io/badge/-JavaScript-black?style=flat&logo=javascript">
     </div>
     <div class="badges_pic">
-      ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=html5&logoColor=white)
+      <img src="https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=html5&logoColor=white">
     </div>
     <div class="badges_pic">
-      ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat&logo=css3)
+      <img src="https://img.shields.io/badge/-CSS3-1572B6?style=flat&logo=css3">
     </div>
     <div class="badges_pic">
-      ![MySQL](https://img.shields.io/badge/-MySQL-black?style=flat&logo=mysql)
+      <img src="https://img.shields.io/badge/-MySQL-black?style=flat&logo=mysql">
     </div>
     <div class="badges_pic2">
-      ![Git](https://img.shields.io/badge/-Git-black?style=flat&logo=git)
+      <img src="https://img.shields.io/badge/-Git-black?style=flat&logo=git">
     </div>
     <div class="badges_pic2">
-      ![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github)
+      <img src="https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github">
     </div>
     <div class="badges_pic2">
-      ![GitLab](https://img.shields.io/badge/-GitLab-FCA121?style=flat&logo=gitlab)
+      <img src="https://img.shields.io/badge/-GitLab-FCA121?style=flat&logo=gitlab">
     </div>
   </div>
     
-    <h3>🏆 Github Status</h3>
-  ![My Github Status](https://github-readme-stats.vercel.app/api?username=aronakhmad&show_icons=true&hide_border=true)
+  <h3>🏆 Github Status</h3>
+  <img src="https://github-readme-stats.vercel.app/api?username=aronakhmad&show_icons=true&hide_border=true">
     
     
   <h3>🔭 2020 Goal</h3>
@@ -64,25 +64,25 @@ title: About
   <h3>☕ Get In Touch</h3>
   <div class="getintouch">
     <div class="contact">
-      [![Gmail](http://img.shields.io/badge/Gmail--181717?style=social&logo=gmail)](mailto:aronakhmad@gmail.com)
+      <a href="mailto:aronakhmad@gmail.com"><img src="http://img.shields.io/badge/Gmail--181717?style=social&logo=gmail"></a>
     </div>
     <div class="contact">
-      [![LINE](https://img.shields.io/badge/LINE--181717?style=social&logo=line)](https://line.me/ti/p/dq7Q3Civme)
+      <a href="https://line.me/ti/p/dq7Q3Civme"><img src="https://img.shields.io/badge/LINE--181717?style=social&logo=line"></a>
     </div>
     <div class="contact">
-      [![WhatsApp](https://img.shields.io/badge/WhatsApp--181717?style=social&logo=whatsapp)](https://bit.ly/36wFuiY)
+      <a href="https://bit.ly/36wFuiY"><img src="https://img.shields.io/badge/WhatsApp--181717?style=social&logo=whatsapp"></a>
     </div>
     <div class="contact">
-      [![Telegram](https://img.shields.io/badge/Telegram--181717?style=social&logo=telegram)](https://telegram.me/aronakhmad)
+      <a href="https://telegram.me/aronakhmad"><img src="https://img.shields.io/badge/Telegram--181717?style=social&logo=telegram"></a>
     </div>
     <div class="contact">
-      [![GitHub](https://img.shields.io/badge/GitHub%20Page--181717?style=social&logo=github)](https://github.com/aronakhmad)
+      <a href="https://github.com/aronakhmad"><img src="https://img.shields.io/badge/GitHub%20Page--181717?style=social&logo=github"></a>
     </div>
   </div>
     
     
   <h3>👁 Visitor Counts</h3>
-  ![visitors](https://visitor-badge.glitch.me/badge?page_id=aronakhmad.aronakhmad)
+  <img src ="https://visitor-badge.glitch.me/badge?page_id=aronakhmad.aronakhmad">
     
-  <h4>✨ From [Aron Akhmad](https://github.com/aronakhmad)✨</h4>
+  <h4>✨ From <a href="https://github.com/aronakhmad">Aron Akhmad</a>✨</h4>
 </p>
