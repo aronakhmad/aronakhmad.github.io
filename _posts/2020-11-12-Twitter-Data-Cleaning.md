@@ -11,7 +11,11 @@ banner: https://www.bbva.com/wp-content/uploads/en/2017/07/A-2807-Twitter-BBVA-1
 
 Twitter data contains a bunch of information parameters. Sometimes, the data contain unnecessary things that need to be cleaned, such as unnecessary characters, links, newlines, and other kinds of stuff. In this article, I’m going to show you how to clean Twitter data using the python programming language.
 
-Firstly, you need to import the modules needed. We’re going to use 4 modules here. Pandas, to open data files and to apply certain operations to the data. Html, to decode HTML entities into regular characters. Re, to filter and delete unnecessary links, hash, username, and punctuations. Nltk, to clean stopwords.
+Firstly, you need to import the modules needed. We're going to use 4 modules here:
+1. Pandas, to open data files and to apply certain operations to the data. 
+2. Html, to decode HTML entities into regular characters.
+3. Re, to filter and delete unnecessary links, hash, username, punctuations or whatever you wish.
+4. Nltk, to clean stopwords.
 
 ```python
 import pandas as pd
