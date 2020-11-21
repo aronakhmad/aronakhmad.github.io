@@ -3,7 +3,7 @@ layout: about
 title: About
 ---
 
-<h2>About</h2>
+## About
 
 <p align="left">
     <img src="https://i.pinimg.com/originals/0b/f2/ba/0bf2baebc370e83b26b1e5ef6a558f07.gif" width="75px">
