@@ -36,7 +36,7 @@ data.head()
 ```
 
 ## Drop Data Duplicates
-Once we have imported the data, we’re now ready for the data cleaning process. The first things that we’re going to clean are data duplicates. Most of the time, we don’t need the data duplicates, because in further use (i.e. analysis) these data duplicates could mess up the result by messing up the measurement.
+Once we have imported the data, we’re now ready for the data cleaning process. The first thing that we’re going to clean are data duplicates. Most of the time, we don’t need the data duplicates, because in further use (i.e. analysis) these data duplicates could mess up the result by messing up the measurement.
 
 ```python
 new_data = data.drop_duplicates('Tweet Content',keep='first') #delete the duplicates by dropping them and store the result value to a new variable
