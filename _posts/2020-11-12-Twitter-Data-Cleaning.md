@@ -84,7 +84,6 @@ for i in range(len(tweets_to_token)):
 ```python
 for i in range(len(tweets_to_token)):
     tweets_to_token[i] = [word for word in tweets_to_token[i] if not word in sw]
-
 tweets_to_token
 ```
 
