@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Twitter Data Collection
+title: Collecting Twitter Data using Python
 subheading: Twitter data is widely used for analysis, especially within NLP field. There are lots of insight we could get from it, but.... How could you actually collect all those Twitter data tho? Do you scrape through Twitter search feature and manually copypaste-ing all those tweets? Well, that sounds alot of work for me and we're absolutely not gonna go through that. In this post, we're going to learn how to do so in a much better and simpler way. Scroll down if you want to find out! 😉
 author: Aron Akhmad
 categories: Data Collection
@@ -54,7 +54,7 @@ You are already connected to the Twitter API and now you can scrape data through
 And here is the code we need to do that. Note that you can adjust the code depending on your needs.
 
 ```python
-key_words = "SpaceX since:2020-11-10 -filter:replies -filter:retweets"
+key_words = "insert your keyword here"
 
 search_result = tw.Cursor(api.search,
               q=key_words,
@@ -79,7 +79,8 @@ tweet_df
 Last but not least, we’ll be storing the data in a file. In this code, we’re going to store it into a CSV file. You can store it into whatever extension type file by adjusting the code. The storing process is done just in case for further use of the data.
 
 ```python
-tweet_df.to_csv(r'hasil_crawling.csv', index=False)
+tweet_df.to_csv(r'twitter_data_collection.csv', index=False)
 ```
+
 
 And that was pretty much all about how you collect Twitter data through Twitter API. How was it? It was really simple, right? I hope so, *teehee*. I thank you guys for reading this article and I hope it helped you (hopefully lol). Bye for now and take care of your health, guys. 🖤
