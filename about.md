@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: about
 title: About
 ---
 
@@ -11,12 +11,12 @@ title: About
     <img src="https://i.pinimg.com/originals/19/da/42/19da4277bf5a2000cf610b933f1ea50e.gif" width="75px">
   </p>
   
-  ### 👦🏻 I'm `Aron` from `Indonesia` 🇮🇩
+  👦🏻 I'm `Aron` from `Indonesia` 🇮🇩
   I love everything about **`Data Science`** and **`Data Analytics`** 🤎
   
   <img align='right' src='https://i.pinimg.com/originals/f8/39/9a/f8399acd37f858c850bbebc2fd5d349e.gif' width='200"'>
   
-  ### 👨‍💻 Languages and Tools
+  👨‍💻 Languages and Tools
   ![Python](https://img.shields.io/badge/-Python-black?style=flat&logo=python)
   ![Java](https://img.shields.io/badge/Java-orange?style=flat&logo=java&logoColor=white)
   ![JavaScript](https://img.shields.io/badge/-JavaScript-black?style=flat&logo=javascript)
@@ -29,15 +29,15 @@ title: About
   ![GitLab](https://img.shields.io/badge/-GitLab-FCA121?style=flat&logo=gitlab&link=https://github.com/hritik5102)
   
   
-  ### 🏆 Github Status
+  🏆 Github Status
   ![My Github Status](https://github-readme-stats.vercel.app/api?username=aronakhmad&show_icons=true&hide_border=true)
   
   
-  ### 🔭 2020 Goal
+  🔭 2020 Goal
   Just tryna upgrade my skill to the much better than ever before 📈
   
   
-  ### ☕ Get In Touch
+  ☕ Get In Touch
   [![Gmail](http://img.shields.io/badge/Gmail--181717?style=social&logo=gmail)](mailto:aronakhmad@gmail.com)
   [![LINE](https://img.shields.io/badge/LINE--181717?style=social&logo=line)](https://line.me/ti/p/dq7Q3Civme)
   [![WhatsApp](https://img.shields.io/badge/WhatsApp--181717?style=social&logo=whatsapp)](https://bit.ly/36wFuiY)
@@ -45,7 +45,7 @@ title: About
   [![GitHub](https://img.shields.io/badge/GitHub%20Page--181717?style=social&logo=github)](https://github.com/aronakhmad)
   
   
-  ### 👁 Visitor Counts
+  👁 Visitor Counts
   ![visitors](https://visitor-badge.glitch.me/badge?page_id=aronakhmad.aronakhmad)
   
-  #### ✨ From [Aron Akhmad](https://github.com/aronakhmad)✨
+  ✨ From [Aron Akhmad](https://github.com/aronakhmad)✨
