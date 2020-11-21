@@ -11,6 +11,7 @@ banner: https://www.bbva.com/wp-content/uploads/en/2017/07/A-2807-Twitter-BBVA-1
 
 Twitter data contains a bunch of information parameters. Sometimes, the data contain unnecessary things that need to be cleaned, such as unnecessary characters, links, newlines, and other kinds of stuff. In this article, I’m going to show you how to clean Twitter data using the python programming language.
 
+## Import Modules
 Firstly, you need to import the modules needed. We're going to use 4 modules here:
 1. Pandas, to open data files and to apply certain operations to the data. 
 2. Html, to decode HTML entities into regular characters.
@@ -25,6 +26,7 @@ from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 ```
 
+## Import the Data
 Secondly, we need to import the Twitter data. in this case, I use CSV Twitter data, you may adjust the code if you use another extension type of file. We’re taking advantage of the pandas library here to import the data.
 
 ```python
@@ -33,6 +35,7 @@ data = pd.read_csv('your_sample.csv')
 data.head()
 ```
 
+## Drop Data Duplicates
 Once we have imported the data, we’re now ready for the data cleaning process. The first things that we’re going to clean are data duplicates. Most of the time, we don’t need the data duplicates, because in further use (i.e. analysis) these data duplicates could mess up the result by messing up the measurement.
 
 ```python
@@ -40,6 +43,7 @@ new_data = data.drop_duplicates('Tweet Content',keep='first') #delete the duplic
 new_data.head()
 ```
 
+## Store the New Dataframe into a New Data File
 If your data has indices included on it, once you drop those data duplicates, you need to store the new data in a new file. Don’t forget to store the new data to a new file without including the index on it, so that we could explore the data more freely later on.
 
 We’re here assuming that we’re only going to use the tweets data, so we’re going to extract the tweets data out of the file.
@@ -52,6 +56,7 @@ tweets = new_sample['Tweet Content']
 tweets.head()
 ```
 
+## Decode HTML entities and Clean Newlines
 Once we extracted tweet data, we’ll notice things that need to be cleaned. Most of the time, the tweets data returned by Twitter JSON data contain HTML entities and they need to be decoded into characters. So, we’re cleaning them using html library. Apart from that, we also need to clean up newlines since they make the data messy.
 
 ```python
@@ -61,6 +66,7 @@ for i in range (len(tweets)):
 tweets.head()
 ```
 
+## Remove Unnecessary Stuffs using RegEx
 Sometimes when tweeting, Twitter users will attach media like pictures, videos, etc. Those media will be converted into links on the JSON data. Since we’re only going to be using the text data, which is the tweets, so we need to clean up the links. Also, we will clean up hash characters (only the hash characters not the whole hashtags) and username. All those things will be cleaned using the regex Python library.
 
 ```python
@@ -69,6 +75,7 @@ for i in range (len(tweets)):
 tweets.head()
 ```
 
+## Remove Stopwords
 Up till now, we already got much cleaner data, but there is one more thing that we need to do to make it even cleaner. In text-data, mostly it contains insignificant words that are not used for the analysis process because they could mess up the analysis score. So, we’re about to clean them now using the nltk Python library. There are several steps you need to do to remove the stopwords:
 
 -	Preparing stopwords
