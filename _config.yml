@@ -4,7 +4,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Aron's Page!
+title: ARON's Page!
 email: aronakhmad@gmail.com
 author: aronakhmad
 copyright: Copyright © 2020
