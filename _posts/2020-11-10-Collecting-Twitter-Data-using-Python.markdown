@@ -7,9 +7,9 @@ image: "img/Twitter_Data_Collection.jpg"
 date:   2020-11-10
 ---
 
-**Twitter** is a microblogging service or also called social media where you can tweet out your thoughts within 280 characters. It is used by 330 million people across the world and there are 500 million tweets sent per day. That means, there are a lot of data we could get too as a data geek, *teehee* :bowtie:. Luckily, Twitter allows us to collect data from it for certain purposes. So, for us who want to do research and need Twitter data for it, we can actually ask Twitter for consent and ultimately get those data through Twitter API. But how could we literally do all that, tho?
+**Twitter** is a microblogging service or also called social media where you can tweet out your thoughts within 280 characters. It is used by 330 million people across the world and there are 500 million tweets sent per day. That means, there are a lot of data we could get too as a data geek, *teehee* 😁. Luckily, Twitter allows us to collect data from it for certain purposes. So, for us who want to do research and need Twitter data for it, we can actually ask Twitter for consent and ultimately get those data through Twitter API. But how could we literally do all that, tho?
 
-To collect Twitter data through Twitter API, we need to apply for permission first. You can look it up on the internet about how to do it, and don’t you worry about it, because trust me it is REALLY simple :kissing:. You just have to register your regular Twitter account into a Twitter developer account, answer several questions, and *poof!!* you’ll get the credentials in a snap. 
+To collect Twitter data through Twitter API, we need to apply for permission first. You can look it up on the internet about how to do it, and don’t you worry about it, because trust me it is REALLY simple 😗. You just have to register your regular Twitter account into a Twitter developer account, answer several questions, and *poof!!* you’ll get the credentials in a snap. 
 
 ## Import Modules
 After you got your own Twitter developer account, the next step you need to do is coding. We’re going to be using Python programming language for this. To scrape the Twitter data, we need tweepy and pandas (optional) libraries. Tweepy library is used to connect to the API and to collect the data we needed, while pandas library is used to store the Twitter data into a file just in case for further use.
@@ -82,4 +82,4 @@ Last but not least, we’ll be storing the data in a file. In this code, we’re
 tweet_df.to_csv(r'twitter_data_collection.csv', index=False)
 ```
 \
-And that was pretty much all about how you collect Twitter data through Twitter API. How was it? It was really simple, right? I hope so, *teehee*. I thank you guys for reading this article and I hope it helped you (hopefully lol). Bye for now and take care of your health, guys! :sparkles:
+And that was pretty much all about how you collect Twitter data through Twitter API. How was it? It was really simple, right? I hope so, *teehee*. I thank you guys for reading this article and I hope it helped you (hopefully lol). Bye for now and take care of your health, guys! ✨
