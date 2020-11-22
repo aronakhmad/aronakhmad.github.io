@@ -67,9 +67,9 @@ layout: compress
                             <div class="meta">
                                 <a href="https://github.com/aronakhmad"><img class="meta__avatar" src="{{ post.avatar }}"/></a>
                                 <a href="https://github.com/aronakhmad"><span class="meta__author">{{ post.author }}</span></a>
-                                <span class="meta__date">{{ post.date | date: "%d-%m-%Y" }}</span>
+                                <span class="meta__date">{{ post.date | date: "%d ", date("F", mktime(0, 0, 0, post.date.month, 10)), " %Y" }}</span>
                             </div>
-                            <p align='justify'>{{ post.content }}</p>
+                            {{ post.content }}
                         </div>
                     </div>
                 </div>
