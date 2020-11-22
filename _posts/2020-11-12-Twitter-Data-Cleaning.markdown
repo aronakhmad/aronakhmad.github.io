@@ -99,3 +99,14 @@ tweets_to_token
 ```
 
 So, that’s pretty much all about how to clean your Twitter data. I hope it was helpful and enlightening. Thank you guys for reading! Bye for now and don’t forget to always to keep an eye on your health! 👋🏻😉
+
+<!-- AddToAny BEGIN -->
+<div class="a2a_kit a2a_kit_size_32 a2a_default_style" data-a2a-url="https://aronakhmad.github.io/#/2020/11/12/Twitter-Data-Cleaning">
+    <a class="a2a_button_facebook"></a>
+    <a class="a2a_button_twitter"></a>
+    <a class="a2a_button_whatsapp"></a>
+    <a class="a2a_button_line"></a>
+    <a class="a2a_button_telegram"></a>
+</div>
+<script async src="https://static.addtoany.com/menu/page.js"></script>
+<!-- AddToAny END -->
