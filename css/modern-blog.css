@@ -116,7 +116,7 @@
 .card__btn-close {
 	font-size: 18px;
 	position: absolute;
-	top: 0;
+	bottom: 0;
 	right: 0;
 	padding: 36px;
 	cursor: pointer;
