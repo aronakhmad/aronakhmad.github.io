@@ -1,5 +1,5 @@
 ---
-title:  "Twitter Data Cleaning"
+title:  "Twitter Data Cleaning using Python"
 subtitle: "Twitter data contains a bunch of attributes, such as tweets, accounts, dates, and etc. Most likely, Twitter data contains unnecessary things that need to be cleaned. But how could you clean Twitter data?"
 author: "Aron Akhmad"
 avatar: "img/authors/cat.jpeg"
@@ -78,25 +78,24 @@ tweets.head()
 ## Remove Stopwords
 Up till now, we already got much cleaner data, but there is one more thing that we need to do to make it even cleaner. In text-data, mostly it contains insignificant words that are not used for the analysis process because they could mess up the analysis score. So, we’re about to clean them now using the nltk Python library. There are several steps you need to do to remove the stopwords:
 
--	Preparing stopwords
+-	**Preparing stopwords**
 ```python
 tweets_to_token = tweets
 sw = stopwords.words('english') #you can adjust the language as you desire
 sw.remove('not') #we exclude not from the stopwords corpus since removing not from the text will change the context of the text
 ```
 
--	Tokenize the tweets
+-	**Tokenize the tweets**
 ```python
 for i in range(len(tweets_to_token)):
     tweets_to_token[i] = word_tokenize(tweets_to_token[i])
 ```
 
--	Remove the Stopwords
+-	**Remove the Stopwords**
 ```python
 for i in range(len(tweets_to_token)):
     tweets_to_token[i] = [word for word in tweets_to_token[i] if not word in sw]
 tweets_to_token
 ```
-\
 \
 So, that’s pretty much all about how to clean your Twitter data. I hope it was helpful for you. Thank you guys for reading. Bye for now don’t forget to always to keep an eye on your health. 👋🏻😉
