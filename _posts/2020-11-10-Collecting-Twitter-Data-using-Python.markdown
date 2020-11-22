@@ -3,7 +3,7 @@ title:  "Collecting Twitter Data using Python"
 subtitle: "How could you collect Twitter data?"
 author: "Aron Akhmad"
 avatar: "img/authors/cat.jpeg"
-image: "img/f.jpg"
+image: "img/f_2.jpg"
 date:   2020-11-10
 ---
 
