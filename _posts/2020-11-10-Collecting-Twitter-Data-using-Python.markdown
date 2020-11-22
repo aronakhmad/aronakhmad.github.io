@@ -1,6 +1,6 @@
 ---
 title:  "Collecting Twitter Data using Python"
-subtitle: "How could you collect Twitter data?"
+subtitle: "Twitter data is widely used for analysis. There are lots of insight we could get from it, but how could you actually collect all those Twitter data tho? Click me to find out!"
 author: "Aron Akhmad"
 avatar: "img/authors/cat.jpeg"
 image: "img/Twitter_Data_Collection.jpg"
