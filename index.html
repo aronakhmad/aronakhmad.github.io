@@ -59,15 +59,15 @@ layout: compress
                     <div class="card__content">
                         <i class="card__btn-close fa fa-times"></i>
                         <div class="card__caption">
-                            <h2 class="card__title">{{ post.title }}</h2>
+                            <h2 class="card__title" align='justify'>{{ post.title }}</h2>
                             <br>
-                            <p class="card__subtitle">{{ post.subtitle }}</p>
+                            <p class="card__subtitle" align='justify'>{{ post.subtitle }}</p>
                         </div>
                         <div class="card__copy">
                             <div class="meta">
                                 <a href="https://github.com/aronakhmad"><img class="meta__avatar" src="{{ post.avatar }}"/></a>
                                 <a href="https://github.com/aronakhmad"><span class="meta__author">{{ post.author }}</span></a>
-                                <span class="meta__date">{{ post.date | date: "%d ", date("F", mktime(0, 0, 0, post.date.month, 10)), " %Y" }}</span>
+                                <span class="meta__date">{{ post.date | date: "%d-%m-%Y" }}</span>
                             </div>
                             {{ post.content }}
                         </div>
