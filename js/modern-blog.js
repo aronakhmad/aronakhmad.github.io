@@ -12,7 +12,7 @@ var demo = (function (window) {
         pattern: '.pattern',
         card: '.card',
         cardImage: '.card__image',
-        cardClose: '.card__btn-close'
+        cardClose: '.card__btn-close; .card__btn-close2'
     };
 
     /**
