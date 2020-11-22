@@ -116,26 +116,13 @@
 .card__btn-close {
 	font-size: 18px;
 	position: absolute;
-	top: 0;
-	right: 0;
-	padding: 36px;
-	cursor: pointer;
-}
-
-.card__container--closed .card__btn-close {
-	display: none;
-}
-
-.card__btn-close2 {
-	font-size: 18px;
-	position: absolute;
 	bottom: 0;
 	right: 0;
 	padding: 36px;
 	cursor: pointer;
 }
 
-.card__container--closed .card__btn-close2 {
+.card__container--closed .card__btn-close {
 	display: none;
 }
 
