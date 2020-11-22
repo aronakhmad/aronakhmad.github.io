@@ -9,7 +9,7 @@ email: aronakhmad@gmail.com
 author: aronakhmad
 copyright: Copyright © 2020
 description: >- # this means to ignore newlines until "baseurl:"
-  
+
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
@@ -71,7 +71,7 @@ coolblack: "#090a0b"
 spacegrey: "#353535"
 snowwhite: "#ffffff"
 #
-theme_color: "#882250"
+theme_color: spacegrey
 #
 # Custom color as below:
 # theme_color: "#882250"
