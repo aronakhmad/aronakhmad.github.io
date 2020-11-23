@@ -22,11 +22,11 @@ In order to build an automated web scraper, you need to follow the steps below. 
 ## Step 1: Inspect the Website
 Open the website that you want to scrape using your browser. Take a glimpse at the website and try to analyze the structure of the website, then go to developer tools of your web browser. This one below is an example of how you get into developer tools using Google Chrome.
 
-<img src="img/developer_tools.png"/>
+<img src="img/developer_tools.png" width="50%" height="50%"/>
 
 Once you clicked the developer tools, the web inspector will be opened alongside the website you’re opening like this one below.
 
-<img src="img/web_inspector.png"/>
+<img src="img/web_inspector.png" width="50%" height="50%"/>
  
 Scan through the HTML code to find the elements that represent the data that you want to scrape from the website. You can hover every line of code to find it since the browser will highlight the website element that represents the code you’re hovering to. Once you found it, take a sign on it as you will use it for the next step on your code.
 
