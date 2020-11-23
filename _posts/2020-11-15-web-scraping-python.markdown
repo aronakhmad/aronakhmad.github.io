@@ -11,7 +11,7 @@ The internet is evolving so fast and massively since the past years. The amount 
 
 ## What is web scraping?
 
-Web scraping is a process where you collect or gather information from the internet (websites). There are several methods of web scraping, from the copy-paste method to the more advanced one with the automated method. Web scraping is becoming more popular nowadays because the internet is becoming more massive too. There is a lot of information that we could get from the internet. People often gathering information from it for certain purposes, i.e. research or analysis. In this article, we will learn how to scrape and collect data from websites.
+Web scraping is a process where you collect or gather information from the internet (websites). There are several methods of web scraping, from the copy-paste method to the more advanced one with the automated method. Web scraping is becoming more popular nowadays as the internet is becoming more massive too. There is a lot of information that we could get from the internet. People often gathering information from it for certain purposes, i.e. research or analysis. In this article, we will learn how to scrape and collect data from websites.
 
 ## Why scrape the web?
 
