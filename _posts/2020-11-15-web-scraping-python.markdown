@@ -66,7 +66,7 @@ soup = BeautifulSoup(content)
 example = soup.find(id = 'someHTML-ID')
 ```
 
-If you want to scrape a lot of data, you can use the `findall` function and the function will return an iterable object that you can scrape information from. Keep in mind that the returned value is an object, so you need to do iteration and specify some specific information later on. You can get the text value from any specific information by using the `object.text`. The code below is an example of how.
+If you want to scrape more data, you can use the `findall` function and the function will return an iterable object that you can scrape information from. Keep in mind that the returned value is an object, so you need to do iteration and specify some specific information later on. You can get the text value from any specific information by using the `object.text`. The code below is an example of how.
 
 ```
 x = soup.findall('div', attrs={'class':'someHTML-Class'})
