@@ -37,7 +37,7 @@ Now, you can start coding to scrape the website. In this article, we will do it 
 pip install selenium
 ```
 
-Once it’s installed, now we can use the library to scrape the website you desire. But before doing that, you need to make sure that you have placed a browser driver on your computer. A browser driver is a driver that is exclusively used and controlled by selenium for scrapping purposes using a particular browser. You can look it up on the internet about how to install a browser driver on your computer but if you’re using Chrome as your browser, you can download ChromeDriver [here](https://chromedriver.chromium.org/).
+Once it’s installed, now we can use the library to scrape the website you desire. But before doing that, you need to make sure that you have placed a browser driver on your computer. A browser driver is a driver that is exclusively used and controlled by selenium for scrapping purposes using a particular browser. You can look it up on the internet about how to install a browser driver on your computer but if you’re using Chrome as your browser, you can download ChromeDriver **[here](https://chromedriver.chromium.org/)**.
 
 Now that you are set, you can start using the selenium library on the code for scraping. Here is how you set your web scraper using selenium and ChromeDriver. Note that you can adjust the code below depending on what web driver you’re using.
 
@@ -78,4 +78,4 @@ for i in x:
     info_data.apppend([info1, info2, info3])
 ```
 
-Now that you have reached this part of this article, roughly speaking we can say that you have known how to scrape data from the web. You have learned about how to specify the HTML element that contains information that you want to scrape by scanning the browser web inspector tools, how to scrape the web and get the website code using selenium, and how to parse the HTML code to get the actual information using beautifulsoup4. You can take advantage of those and scrape the web, the code might be slightly different depending on the website you desire to scrape. But if you want to know the actual example, you can visit my web scraping code on my GitHub repo [here](https://github.com/aronakhmad/Web-Scraping-using-Python).
+Now that you have reached this part of this article, roughly speaking we can say that you have known how to scrape data from the web. You have learned about how to specify the HTML element that contains information that you want to scrape by scanning the browser web inspector tools, how to scrape the web and get the website code using selenium, and how to parse the HTML code to get the actual information using beautifulsoup4. You can take advantage of those and scrape the web, the code might be slightly different depending on the website you desire to scrape. But if you want to know the actual example, you can visit my web scraping code on my GitHub repo **[here](https://github.com/aronakhmad/Web-Scraping-using-Python)**.
