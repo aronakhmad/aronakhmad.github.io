@@ -51,7 +51,7 @@ content = driver.page_source
 ```
 
 ## Step 3: Parse the HTML code using BeautifulSoup4
-Once you have scraped the web, now you need to highlight the information that you want to collect using the information that you have got earlier in step 1. Note that selenium will return the HTML code and you will never store the HTML code because it’s messy and hard to read. You need to translate the HTML code, and this is where you need the BeautifulSoup4 library on your code. This library will parse the HTML code and return the information that you need to get. If you haven’t installed this library yet, you can easily get one by executing this command below.
+Once you have scraped the web, now you need to highlight the information that you want to collect using the information that you have got earlier in step 1. Note that selenium will return the HTML code and you will never store the HTML code as it’s messy and hard to read. You need to translate the HTML code, and this is where you need the BeautifulSoup4 library on your code. This library will parse the HTML code and return the information that you need to get. If you haven’t installed this library yet, you can easily get one by executing this command below.
 
 ```
 pip install beautifulsoup4
