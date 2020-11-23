@@ -15,7 +15,7 @@ Web scraping is a process where you collect or gather information from the inter
 
 ## Why scrape the web?
 
-Sometimes we face some situations where we need to surf the web back and forth to get information from it as much as we can -- for example; buying something from an online marketplace. When we’re doing it we will scan every price from the advertised products and any other details. We’re looking for the fittest product that meets our requirements in terms of price and any other specifications. In this case, it’s kind of inefficient to scan the web manually. Now that technology has evolved enormously, why don’t we use it to ease our work? Hold on a sec! You're about to know how to build an automated web scraper with Python. Keep scrolling down!
+Sometimes we face some situations where we need to surf the web back and forth to get information from it as much as we can -- for example; buying something from an online marketplace. When we're doing it we usually scan every price and other details from the posted products as we're looking for the most suitable product for us. In this case, it’s kind of inefficient to scan the web manually. Now that technology has evolved enormously, why don’t we use it to ease our work? Hold on a sec! You're about to know how to build an automated web scraper with Python. Keep scrolling down!
 
 In order to build an automated web scraper, you need to follow the steps below. There are several steps to do it:
 
