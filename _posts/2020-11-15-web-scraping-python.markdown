@@ -57,7 +57,7 @@ Once you have scraped the web, now you need to highlight the information that yo
 pip install beautifulsoup4
 ```
 
-Now that it’s installed, you can now start using the library to parse the HTML code. You can use the ‘find’ function to find a specific HTML code. You specify the HTML code you want to get by providing the HTML tag on the function parameter. The code below is an example of how.
+Now that it’s installed, you can now start using the library to parse the HTML code. You can use the `find` function to find a specific HTML code. You specify the HTML code you want to get by providing the HTML tag on the function parameter. The code below is an example of how.
 
 ```
 from bs4 import BeautifulSoup
@@ -66,7 +66,7 @@ soup = BeautifulSoup(content)
 example = soup.find(id = 'someHTML-ID')
 ```
 
-If you want to scrape a lot of data, you can use the findAll function and the function will return an iterable object that you can scrape information from. Keep in mind that the returned value is an object, so you need to do iteration and specify some specific information later on. You can get the text value from any specific information by using the ‘object.text’. The code below is an example of how.
+If you want to scrape a lot of data, you can use the `findall` function and the function will return an iterable object that you can scrape information from. Keep in mind that the returned value is an object, so you need to do iteration and specify some specific information later on. You can get the text value from any specific information by using the `object.text`. The code below is an example of how.
 
 ```
 x = soup.findall('div', attrs={'class':'someHTML-Class'})
