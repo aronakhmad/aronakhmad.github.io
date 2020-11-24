@@ -1,4 +1,11 @@
-# Poverty Analysis in Indonesia
+---
+title:  "Poverty Analysis in Indonesia"
+subtitle: "Simple plotting in Python about poverty in Indonesia."
+author: "Aron Akhmad"
+avatar: "img/authors/cat.jpeg"
+image: "img/web_scraping_python.jpg"
+date:   2020-11-19
+---
 
 
 ```python
