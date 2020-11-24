@@ -159,8 +159,7 @@ plt.legend(['Total Urban Population Living in Poverty', 'Total Village Populatio
 
 
 
-
-![svg](_posts/indonesia_poverty_analysis_files/indonesia_poverty_analysis_4_1.svg)
+<img src="img/indonesia_poverty_analysis_files/indonesia_poverty_analysis_4_1.svg" height="100%" width="100%"/>
 
 
 
@@ -186,8 +185,7 @@ plt.legend(['Urban Poverty Percentage', 'Village Poverty Percentage', 'Overall P
 
 
 
-
-![svg](_posts/indonesia_poverty_analysis_files/indonesia_poverty_analysis_5_1.svg)
+<img src="img/indonesia_poverty_analysis_files/indonesia_poverty_analysis_5_1.svg" height="100%" width="100%"/>
 
 
 
@@ -211,8 +209,7 @@ plt.legend(['Village Poverty Line', 'Urban Poverty Line'])
 
 
 
-
-![svg](_posts/indonesia_poverty_analysis_files/indonesia_poverty_analysis_6_1.svg)
+<img src="img/indonesia_poverty_analysis_files/indonesia_poverty_analysis_6_1.svg" height="100%" width="100%"/>
 
 
 
