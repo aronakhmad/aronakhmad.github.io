@@ -47,7 +47,7 @@ data.head()
         text-align: right;
     }
 </style>
-<table border="1" class="dataframe">
+<table border="1" class="dataframe" height="100%" width="100%">
   <thead>
     <tr style="text-align: right;">
       <th></th>
@@ -160,7 +160,7 @@ plt.legend(['Total Urban Population Living in Poverty', 'Total Village Populatio
 
 
 
-![svg](indonesia_poverty_analysis_files/indonesia_poverty_analysis_4_1.svg)
+![svg](_posts/indonesia_poverty_analysis_files/indonesia_poverty_analysis_4_1.svg)
 
 
 
@@ -187,7 +187,7 @@ plt.legend(['Urban Poverty Percentage', 'Village Poverty Percentage', 'Overall P
 
 
 
-![svg](indonesia_poverty_analysis_files/indonesia_poverty_analysis_5_1.svg)
+![svg](_posts/indonesia_poverty_analysis_files/indonesia_poverty_analysis_5_1.svg)
 
 
 
@@ -212,7 +212,7 @@ plt.legend(['Village Poverty Line', 'Urban Poverty Line'])
 
 
 
-![svg](indonesia_poverty_analysis_files/indonesia_poverty_analysis_6_1.svg)
+![svg](_posts/indonesia_poverty_analysis_files/indonesia_poverty_analysis_6_1.svg)
 
 
 
@@ -235,10 +235,4 @@ plt.plot(x,y,marker='o', markersize=10, markerfacecolor='white', linestyle=':')
 
 
 
-![svg](indonesia_poverty_analysis_files/indonesia_poverty_analysis_7_1.svg)
-
-
-
-```python
-
-```
+![svg](_posts/indonesia_poverty_analysis_files/indonesia_poverty_analysis_7_1.svg)
