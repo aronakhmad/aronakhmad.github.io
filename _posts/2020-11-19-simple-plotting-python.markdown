@@ -234,5 +234,4 @@ plt.plot(x,y,marker='o', markersize=10, markerfacecolor='white', linestyle=':')
 
 
 
-
-![svg](_posts/indonesia_poverty_analysis_files/indonesia_poverty_analysis_7_1.svg)
+<img src="_posts/indonesia_poverty_analysis_files/indonesia_poverty_analysis_7_1.svg" height="100%" width="100%"/>
