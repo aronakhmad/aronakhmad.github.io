@@ -26,7 +26,7 @@ Bring the data that you desire to plot into the code. We’re using pandas to im
 <script src="https://gist.github.com/aronakhmad/cbc65bfd9ff9d644511b6d093c571e5e.js?file=data_importing.py"></script>
 `output:`
 <img src="img/indonesia_poverty_analysis_files/data_tail.png" width="100%" height="100%"/>
-<br>
+<br><br>
 
 **Data Plotting**
 
@@ -35,27 +35,27 @@ Now that the data is already set, we’re about to plot the data immediately. In
 <script src="https://gist.github.com/aronakhmad/cbc65bfd9ff9d644511b6d093c571e5e.js?file=plotting1.py"></script>
 `output:`
 <img src="img/indonesia_poverty_analysis_files/indonesia_poverty_analysis_4_1.svg" width="100%" height="100%"/>
-<br>
+<br><br>
 
 The second plot portrays pretty much the same as the previous one but in percent. Here, I use a vertical bar plot so that we can compare the 3 parameters side-by-side. The graph depicted the same idea as the first graph.
 
 <script src="https://gist.github.com/aronakhmad/cbc65bfd9ff9d644511b6d093c571e5e.js?file=plotting2.py"></script>
 `output:`
 <img src="img/indonesia_poverty_analysis_files/indonesia_poverty_analysis_5_1.svg" width="100%" height="100%"/>
-<br>
+<br><br>
 
 Below is the plot of poverty line comparison in urban and village areas. Just so you know, the poverty line was divided into 2; urban and village up until 2017. I use the horizontal bar plot as it will be easier to compare and get insight from the parameters. From the graph, we can conclude that the poverty line threshold is constantly increasing year by year. It is expected as inflation affect the value of the money as well as the groceries’ prices.
 
 <script src="https://gist.github.com/aronakhmad/cbc65bfd9ff9d644511b6d093c571e5e.js?file=plotting3.py"></script>
 `output:`
 <img src="img/indonesia_poverty_analysis_files/indonesia_poverty_analysis_6_1.svg" width="100%" height="100%"/>
-<br>
+<br><br>
 
 The last plot is actually the same as the previous one. Since Q2 2017, the BPS (Indonesia’s Central Bureau of Statistics) website only shows one single poverty line threshold, and judging from the value, it was generalized based on the previous urban threshold. So, in this code below we’re going to plot the urban poverty line threshold from Q1 2011 up until Q1 2017, extended with the general poverty line threshold from Q2 2017 up until Q1 2020. The output graph showing that the threshold is always increasing but the step-up percentage fluctuates until Q1 2018 ¬-— meanwhile you can see in Q3 2011 to Q1 2012 and Q3 2017 to Q1 2018 showing an almost flat horizontal graph meaning the climb-up rate is remarkably low. On another side, Q3 2018 to Q1 2020 showing an almost constant straight line meaning the climb-up rate is pretty much stable.
 
 <script src="https://gist.github.com/aronakhmad/cbc65bfd9ff9d644511b6d093c571e5e.js?file=plotting4.py"></script>
 `output:`
 <img src="img/indonesia_poverty_analysis_files/indonesia_poverty_analysis_7_1.svg" width="100%" height="100%"/>
-<br>
+<br><br>
 
 So that was a simple graph plotting of Indonesia’s poverty overview year-by-year. It was just the simple one, you can explore matplotlib more — you can make interactive graphs and other interesting features with it more than I show you here, but still tho.. I do really hope this article was useful and that you could get a broad overview about the use of matplotlib for data plotting, *hehe*. Anyway, thank you for reading and don’t forget to always be healthy. ✨
