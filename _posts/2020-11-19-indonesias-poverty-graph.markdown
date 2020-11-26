@@ -1,6 +1,6 @@
 ---
 title:  "Indonesia's Poverty Simple Overview Visualization using Matplotlib"
-subtitle: "Poverty has been becoming one of Indonesia's biggest problem all along. This article will show you the overview of it in visualization using matplotlib Python. You will get the overview of Indonesia's poverty as well as the simple use of matplotlib for data plotting."
+subtitle: "Poverty has been becoming one of Indonesia's biggest problem all along. This article will show you the overview of it as well as the simple use of matplotlib for data plotting."
 author: "Aron Akhmad"
 avatar: "img/authors/cat.jpeg"
 image: "img/indo_poverty.jpg"
