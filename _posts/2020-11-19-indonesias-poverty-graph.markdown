@@ -7,7 +7,7 @@ image: "img/indo_poverty.jpg"
 date:   2020-11-19
 ---
 
-In data analytics, plotting is an important thing as it gives us insights from the data. There are various tools out there available for plotting. However, as python has been becoming the hottest programming language contemporarily — especially among data scientists, so I’m going to show you how to plot your data using the most eminent python library used for data plotting, matplotlib. Actually, at first I just wanted to make an article about Indonesia’s poverty year-by-year in visualization, but since I’ve been posting about python tutorials before, so why don’t I share the code too, right? *Teehee*.
+In data analytics, plotting is immensely important as it gives us insights from the data. There are various tools out there available for plotting. However, as python has been becoming the hottest programming language contemporarily — especially among data scientists, so I’m going to show you how to plot your data using the most eminent python library used for data plotting, matplotlib. Actually, at first I just wanted to make an article about Indonesia’s poverty year-by-year in visualization, but since I’ve been posting about python tutorials before, so why don’t I share the code too, right? *Teehee*.
 
 Matplotlib is a prominent python library used for data plotting and it is among the most used ones. It is known for its reliability, convenience, and simplicity for plotting, though it might be not the prettiest one. You could plot your data just by typing a few lines of code and *taadaa!* you’ll get your data visualized. In this article, you will learn simple plotting using matplotlib as well as simple analysis (or maybe graph reading *lmao*) of the graph. Please note that the code in this article is just an example aimed to give you an overview of the matplotlib use for data plotting. You may adjust the code as you desire depending on how you want your data to be plotted. The next paragraphs will show you an example of data plotting using Indonesia’s poverty overview year-by-year data.
 <br><br>
@@ -21,7 +21,7 @@ First things first, you need to import several modules. There are 3 modules used
 
 **Import Data**
 
-Bring the data that you desire to plot into the code. We’re using pandas to import the data. In this code below, we open an excel file, so you may adjust the code depending on the type of file you open. Note that `xls.parse(0)` meaning we parse the first sheet on the excel file, and again you may adjust the code according to what you desire. `tail` up the data to print the first five data on the file to take a quick sight at the data composition.
+Bring the data that you desire to plot into the code. We’re using pandas to import the data. In this code below, we open an excel file, so you may adjust the code depending on the type of file you open. Note that `xls.parse(0)` meaning we parse the first sheet on the excel file, and again you may adjust the code according to what you desire. `tail` up the data to print the last five data on the file to take a quick sight at the data composition.
 
 <script src="https://gist.github.com/aronakhmad/cbc65bfd9ff9d644511b6d093c571e5e.js?file=data_importing.py"></script>
 `output:`
@@ -51,7 +51,7 @@ Below is the plot of poverty line comparison in urban and village areas. Just so
 <img src="img/indonesia_poverty_analysis_files/indonesia_poverty_analysis_6_1.svg" width="100%" height="100%"/>
 <br><br>
 
-The last plot is actually the same as the previous one. Since Q2 2017, the BPS (Indonesia’s Central Bureau of Statistics) website only shows one single poverty line threshold, and judging from the value, it was generalized based on the previous urban threshold. So, in this code below we’re going to plot the urban poverty line threshold from Q1 2011 up until Q1 2017, extended with the general poverty line threshold from Q2 2017 up until Q1 2020. The output graph showing that the threshold is always increasing but the step-up percentage fluctuates until Q1 2018 ¬-— meanwhile you can see in Q3 2011 to Q1 2012 and Q3 2017 to Q1 2018 showing an almost flat horizontal graph meaning the climb-up rate is remarkably low. On another side, Q3 2018 to Q1 2020 showing an almost constant straight line meaning the climb-up rate is pretty much stable.
+The last plot is actually the same as the previous one. Since Q2 2017, the BPS (Indonesia’s Central Bureau of Statistics) website only shows one single poverty line threshold, and judging from the value, it was most likely generalized based on the previous urban threshold. So, in this code below we’re going to plot the urban poverty line threshold from Q1 2011 up until Q1 2017, extended with the general poverty line threshold from Q2 2017 up until Q1 2020. The output graph showing that the threshold is always increasing but the step-up percentage fluctuates until Q1 2018 — meanwhile you can see in Q3 2011 to Q1 2012 and Q3 2017 to Q1 2018 showing an almost flat horizontal graph meaning the climb-up rate is remarkably low. On another side, Q3 2018 to Q1 2020 showing an almost straight line meaning the climb-up rate is pretty much stable and constant.
 
 <script src="https://gist.github.com/aronakhmad/cbc65bfd9ff9d644511b6d093c571e5e.js?file=plotting4.py"></script>
 `output:`
