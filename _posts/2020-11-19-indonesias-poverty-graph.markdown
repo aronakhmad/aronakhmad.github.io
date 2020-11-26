@@ -58,5 +58,4 @@ The last plot is actually the same as the previous one. Since Q2 2017, the BPS (
 <img src="img/indonesia_poverty_analysis_files/indonesia_poverty_analysis_7_1.svg" width="100%" height="100%"/>
 <br>
 
-So that was a simple graph plotting of Indonesia’s poverty overview year-by-year. It was just the simple one, you can explore more with matplotlib. You can make interactive graphs and other interesting features with it, but I hope this article was useful. Thank you for reading and don’t forget to always be healthy. ✨
-
+So that was a simple graph plotting of Indonesia’s poverty overview year-by-year. It was just the simple one, you can explore matplotlib more — you can make interactive graphs and other interesting features with it more than I show you here, but still tho.. I do really hope this article was useful and that you could get a broad overview about the use of matplotlib for data plotting, *hehe*. Anyway, thank you for reading and don’t forget to always be healthy. ✨
