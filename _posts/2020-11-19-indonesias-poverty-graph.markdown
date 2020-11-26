@@ -7,13 +7,13 @@ image: "img/indo_poverty.jpg"
 date:   2020-11-19
 ---
 
-In data analytics, plotting is an important thing as it gives us insights from the data. There are various tools out there available for plotting. However, as python has been becoming the hottest programming language contemporarily — especially among data scientists, so I’m going to show you how to plot your data using the most eminent python library used for data plotting, matplotlib. Actually, at first I just wanted to make an article about Indonesia’s poverty year-by-year in visualization, but since I’ve been posting about python tutorials before, so why don’t I share the code too, right? Teehee.
+In data analytics, plotting is an important thing as it gives us insights from the data. There are various tools out there available for plotting. However, as python has been becoming the hottest programming language contemporarily — especially among data scientists, so I’m going to show you how to plot your data using the most eminent python library used for data plotting, matplotlib. Actually, at first I just wanted to make an article about Indonesia’s poverty year-by-year in visualization, but since I’ve been posting about python tutorials before, so why don’t I share the code too, right? *Teehee*.
 
 Matplotlib is a prominent python library used for data plotting and it is among the most used ones. It is known for its reliability, convenience, and simplicity for plotting, though it might be not the prettiest one. You could plot your data just by typing a few lines of code and poof! you’ll get your data visualized. In this article, you will learn simple plotting using matplotlib as well as simple analysis (or maybe graph reading lmao) of the graph. Please note that the code in this article is just an example aimed to give you an overview of the matplotlib use for data plotting. You may adjust the code as you desire depending on how you want your data to be plotted. The next paragraphs will show you an example of data plotting using the data of Indonesia’s poverty overview year-by-year.
 
 **Import Modules**
 
-First things first, you need to import several modules. There are 3 modules used here; pandas, NumPy, and matplotlib. Pandas will be used for importing and utilizing the data file, NumPy will be used for generating array, and matplotlib will be used for data plotting, obviously. Teehee.
+First things first, you need to import several modules. There are 3 modules used here; pandas, NumPy, and matplotlib. Pandas will be used for importing and utilizing the data file, NumPy will be used for generating array, and matplotlib will be used for data plotting, obviously. *Teehee*.
 
 <script src="https://gist.github.com/aronakhmad/cbc65bfd9ff9d644511b6d093c571e5e.js?file=import_modules.py"></script>
 <br>
