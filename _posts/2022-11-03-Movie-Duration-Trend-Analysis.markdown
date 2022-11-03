@@ -1,15 +1,13 @@
 ---
 title:  "Movie Duration Trend Analysis (using Netflix dataset)"
-subtitle: "The movie industry has been growing rapidly over the few decades. As technology is getting better over time, the movie industry has grown its quality as well. However, the making process is getting much more complex either. Would the more difficult movie-making process impact the movie duration from then to now? In this article, we would make a little research about that. Is the movie duration getting shorter now? Or is it otherwise? Let’s find out!"
+subtitle: "In this article, we would make simple research on whether or not movie duration decreasing. So, is the movie duration getting shorter now? Or is it otherwise? Let’s find out!"
 author: "Aron Akhmad"
 avatar: "img/authors/cat.jpeg"
 image: "img/movie_duration_analysis/netflix.jpg"
 date:   2022-11-03
 ---
 
-Movies are a type of entertainment people love to have in their spare time. Over few decades, movies are getting more and more consumed as accessibility is much better and easier now. Though, speculation is going on saying that movie’s duration is decreasing now.
-
-In this article, we would like to find out whether that speculation or hypothesis is true or not. With the Netflix dataset, we will do a simple analysis on python to crack the code. Let’s go!
+Movies are a type of entertainment people love to have in their spare time. Over few decades, movies are getting more and more consumed as accessibility is much better and easier now. And as technology is getting better over time, the movie industry has grown its quality as well. However, the making process is getting much more complex either. Would the more difficult movie-making process impact the movie duration from then to now? Let's do some simple research on it!
 
 First, load the Netflix CSV dataset and store its value in a data frame called durations_df. Print the first 5 data of durations_df using the head() function to get a glimpse of it.
 
